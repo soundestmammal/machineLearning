@@ -25,7 +25,7 @@ y_train = sc_y.fit_transform(y_train)"""
 # Fitting Simple Linear Regression to the Training set
 from sklearn.linear_model import LinearRegression
 regressor = LinearRegression()
-regressor.fit(X_train, y_train)
+regressor.fit(X_train, y_train, sample_weight= None)
 
 # Predicting the Test set results
 y_pred = regressor.predict(X_test)
