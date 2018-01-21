@@ -2,6 +2,8 @@
 
 from numpy import *
 
+def run():
+
     #Step 1 - Collect Data
     points = genfromtxt('data.csv', delimiter=',')
     
