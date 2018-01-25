@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+# this is another comment to finish this - jan 24
 # Simple Linear Regression
 
 import numpy as np
