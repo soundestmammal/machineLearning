@@ -1,12 +1,22 @@
 # -*- coding: utf-8 -*-
+# About 30 Minutes Left
+# https://www.youtube.com/watch?v=XdM6ER7zTLk
+
 
 from numpy import *
 
 def compute_error_for_given_points(b, m, points):
-    
+    totalError = 0
+    for i in range(0, len(points)):
+        x = points[i, 0]
+        y = points[i, 1]
+        totalError += (y - (m*x +b)) **2
+    return totalError / float(len(points))
 
 def step_gradient(b_current, m_current, points, learningRate):
     #gradient descent
+    b_gradient = 0
+    m_gradient = 
 
 def gradient_descent_runner(points, starting_b, starting_m, learning_rate, num_iterations)
         b = starting_b
