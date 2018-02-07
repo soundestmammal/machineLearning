@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -
-*-
-
 import numpy as np
 
 def function():
@@ -12,10 +9,16 @@ function()
 
 def changeFunction():
     for x in range(0,100):
-        list[]
         increase_in_wage = 0.48*(x) - 0.016*(x)
+        
         
         
 
 changeFunction()
 
+def mean():
+    for x in ['h', 'e', 'l', 'l', 'o']:
+        here = x
+        print(here)
+        
+mean()
