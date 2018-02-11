@@ -11,3 +11,4 @@ print("Convert to string %s" %(123))
 
 print("First: %s, Second %s, Third %s" %("hey", 2, "Seven"))
 print("First: {x}, Second: {y}".format(x="inserted", y="other"))
+
