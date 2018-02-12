@@ -22,3 +22,14 @@ def mean():
         print(here)
         
 mean()
+
+ed = 4
+exp = 4
+criminal = 0 
+
+def wage(ed, exp, criminal):
+	if(criminal):
+		sum = sum * 0.5
+	else:
+		sum = sum * 1
+
