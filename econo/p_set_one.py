@@ -7,11 +7,16 @@ import numpy as np
 distance = np.array([5.0, 10.0, 20.0])
 
 def missed(distance):
-        missed = 3 + 0.2*(distance)
-        return missed   
-information = missed(distance)
+        missed_classes = 3 + 0.2*(distance)
+        return missed_classes 
 
-for info in information:
+print(missed_classes)
+
+diff_distance = missed_classes[2] - missed_classes[1]
+print(diff_distance) # = 2.0
+
+
+
     
     
          
