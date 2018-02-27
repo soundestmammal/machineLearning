@@ -24,6 +24,11 @@ class Vehicle:
 		self.seating_capacity = seating_capacity
 		self.maximum_velocity = maximum_velocity
 
+class Person:
+	def __init__(first_name, last_name, address):
+		self.number_of_wheels
+
+
 #Above we used the init method. We call it a constructor method.
 
 #When we create the vehicle object, we can define this attributes.
