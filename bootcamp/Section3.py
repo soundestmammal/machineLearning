@@ -63,3 +63,44 @@ a = a + a
 
 type(a)
 type(30.1)
+
+my_income = 100
+tax_rate = 0.1
+my_taxes = my_income * tax_rate
+print(my_taxes)
+
+# Introduction to Strings
+
+# Strings are dwquences of characters, using the syntax of either single quotes or double quoes
+
+
+'hello'
+"hello"
+'This is also a string'
+"i'm going on a run"
+
+print('Hello")
+print('Hello world')
+
+print('Hello \n world')
+
+len(words)
+len('words')
+
+#Lecture 16
+
+mystring= "hello world"
+print('hello world')
+
+First
+mystring[0]
+
+mystring[-2]
+
+#slicing
+mystring
+mystring[2:]
+
+mystring[:-2]
+
+mystring[3:7]
