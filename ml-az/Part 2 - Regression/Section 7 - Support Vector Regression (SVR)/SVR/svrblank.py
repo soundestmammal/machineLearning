@@ -20,7 +20,7 @@ from sklearn.svm import SVR
 regressor = SVR(kernel = 'rbf')
 regressor.fit(X, y)
 
-y_pred = regressor.predict(6.5)
+y_pred = sc_y.inverse_transform(regressor.predict(sc_X.transform(np.array([[6.5]]))))
 
 # Visualizing the SVR results
 plt.scatter(X, y, color="red")
@@ -29,3 +29,4 @@ plt.title('Truth or Bluff(SVR)')
 plt.xlabel('Position Level')
 plt.ylabel('Salary')
 plt.show()
+

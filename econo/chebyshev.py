@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
+num = 1-(1/(3**2))
 
-def function(num):
-    ans = 1 - (1/(num^2))
-    print("The percentage is "+ans)
 
-function(1.5)
+function(num)
 
     
     
