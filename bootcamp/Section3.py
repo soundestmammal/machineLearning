@@ -104,3 +104,9 @@ mystring[2:]
 mystring[:-2]
 
 mystring[3:7]
+
+mystring[::]
+
+
+# /string properties and methods
+

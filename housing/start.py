@@ -3,8 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-melbourne_file_path = "melb_data.csv"
-melbourne_data = pd.read_csv(melbourne_file_path)
+melbourne_data = pd.read_csv('melb_data.csv')
 melbourne_price_data = melbourne_data.Price
 
 print(melbourne_price_data.head())
@@ -15,7 +14,7 @@ two_columns_of_data.describe()
 
 melbourne_data = melbourne_data.dropna() 
 
-y = melbourne_data.
+y = melbourne_data
 melbourne_predictors = ['Rooms', 'Bathroom', 'Landsize', 'BuildingArea', 
                         'YearBuilt', 'Lattitude', 'Longtitude']
 
@@ -29,4 +28,4 @@ melbourne_model.fit(X , y)
 print("Making predictions for the following 5 houses:")
 print(X.head())
 print("The predictions are")
-print(melbourne_model.predict(X.head()
+print(melbourne_model.predict(X.head()))
