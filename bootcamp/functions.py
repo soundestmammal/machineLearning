@@ -24,3 +24,16 @@ def dog_check(mystring):
 
 def dog_check_better(mystring):
 	return 'dog' in mystring.lower()
+
+def pig_latin(word):
+	vowel_list = ['a', 'e', 'i', 'o', 'u']
+	for letter in vowel_list:
+		if word[0] == letter:
+			vowel_word = word.append('ay')
+			return vowel_word
+		else:
+			first_letter = word.pop(0)
+			cons_word = word.append(first_letter)
+			final_word = cons_word.append('ay')
+			return final_word
+
